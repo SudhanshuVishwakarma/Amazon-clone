@@ -1,0 +1,22 @@
+.checkout_add {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  margin: 0px 50px 0px 50px;
+}
+
+.checkout_title {
+  font-weight: 500;
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.user_detail {
+  font-weight: 500;
+  font-style: italic;
+}

@@ -1,0 +1,57 @@
+.Image {
+  background-image: url("./img1.jpg");
+  padding: 23em;
+  background-repeat: no-repeat;
+  outline: 0px solid black;
+  background-size: 100%;
+  z-index: -1;
+  filter: blur(1px);
+  -webkit-background-size: cover;
+}
+
+.prime_logo {
+  margin: 20px 50px 20px 0;
+  object-fit: contain;
+  width: 250px;
+  padding-top: 0;
+  padding-left: 50px;
+}
+
+.prime_container {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border-radius: 10px;
+
+  /* background-color: white;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 0.5px solid lightgray;
+  margin-left: 10em;
+  margin-top: 1em; */
+}
+
+.prime_title {
+  font-weight: normal;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 20px;
+}
+.prime_button {
+  align-content: center;
+  background: #ffdf00;
+  border: none;
+  width: 60%;
+  border-radius: 6px;
+  padding: 10px 50px 10px 50px;
+  font-weight: bold;
+}
